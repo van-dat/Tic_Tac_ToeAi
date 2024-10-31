@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src/**/*.ts", "botAi.ts"],  // Chỉ định thư mục chứa các file .ts
+  "exclude": ["node_modules"]    // Loại bỏ thư mục node_modules
+}
